@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Buffy Summers</title>
 </head>
 
@@ -28,7 +29,16 @@
                     <a class="nav-link" href="/#stances">Stances</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="/#gallery">Image Gallery</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/#events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#funFacts">Fun Facts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -51,7 +61,7 @@
             <div class="col-4">
                 <div class="container">
                     <div class="card" style="width:400px">
-                        <img class="card-img-top" src="/img/BuffyMain.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="/img/BuffyMain.jpg" alt="Buffy Summers" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Buffy Summers</h4>
                             <p class="card-text">For Constable of Fayette County</p>
@@ -101,48 +111,52 @@
         </div>
     </section>
     <br>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-3">
-            </div>
-            <div class="col-6">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                    </ul>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/Buffy.jpg" alt="Buffy" width="750" height="450">
-                            <div class="carousel-caption">
+    <section class="section-container section--padding section--text" id="gallery">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                    <h2>Image Gallery</h2>
+                    <a href="/#top" class="link">Back to Top</a>
+                    <div id="multiImages" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#multiImages" data-slide-to="0" class="active"></li>
+                            <li data-target="#multiImages" data-slide-to="1"></li>
+                            <li data-target="#multiImages" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Buffy.jpg" alt="Buffy" width="750" height="450">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/BuffyGroup.jpg" alt="Scoby Gang" width="750" height="450">
+                                <div class="carousel-caption">
+                                    <p>Buffy and the Scoobies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/BuffyGiles.jpg" alt="Buffy Giiles" width="750" height="450">
+                                <div class="carousel-caption">
+                                    <p>Buffy and long time mentor Giles</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/BuffyGroup.jpg" alt="Scoby Gang" width="750" height="450">
-                            <div class="carousel-caption">
-                                <p>Buffy and the Scoobies</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/BuffyGiles.jpg" alt="Buffy Giiles" width="750" height="450">
-                            <div class="carousel-caption">
-                                <p>Buffy and long time mentor Giles</p>
-                            </div>
-                        </div>
+                        <a class="carousel-control-prev" href="#multiImages" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#multiImages" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
+                </div>
+                <div class="col-3">
                 </div>
             </div>
-            <div class="col-3">
-            </div>
         </div>
-    </div>
+    </section>
     <br>
     <section id="events">
         <div class="container">
@@ -176,8 +190,69 @@
             </table>
         </div>
     </section>
-
+    <br>
+    <section id="funFacts">
+        <div class="container">
+            <h2>Fun Facts</h2>
+            <a href="/#top" class="link">Back to Top</a>
+            <p>
+                As she grew up, she came to idolize __________, and practiced the sport herself. <a tabindex="0"
+                    data-toggle="popover" data-content="Olympic ice skater Dorothy Hamill">View Answer</a>
+            </p>
+            <p>
+                Buffy has a younger sister named __________. <a tabindex="0" data-toggle="popover"
+                    data-content="Dawn">View
+                    Answer</a>
+            </p>
+            <p>
+                Buffy briefly worked as a __________ at Sunnydale High. <a tabindex="0" data-toggle="popover"
+                    data-content="guidance counselor">View Answer</a>
+            </p>
+        </div>
+    </section>
+    <br>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <a href="/#top" class="link">Back to Top</a>
+            <div class="column">
+                <span class="fa-stack fa-5x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <a href="mailto:msmaedev@gmail.com"><i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i></a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <br>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 
 </body>
+
+<footer>
+    <div class="container">
+        <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#sources">Sources</button>
+        <div id="sources" class="collapse">
+            <a href="https://buffy.fandom.com/wiki/Buffy_Summers">About/Stances</a>
+            <br>
+            <a
+                href="https://www.refinery29.com/en-gb/2018/07/205036/buffy-the-vampire-slayer-reboot-black-woman-lead">Image1</a>
+            <br>
+            <a
+                href="https://www.theverge.com/2018/7/20/17597144/buffy-the-vampire-slayer-joss-whedon-monica-owusu-breen">Carousel
+                Image1</a>
+            <br>
+            <a
+                href="https://metro.co.uk/2015/04/22/exclusive-joss-whedon-weighs-in-on-the-idea-of-a-buffy-reunion-movie-5160974/">Carousel
+                Image2</a>
+            <br>
+            <a href="https://geeksofcolor.co/2017/10/05/joss-whedon-co-writing-a-giles-focused-buffy-spinoff-comic/">Carousel
+                Image3</a>
+        </div>
+    </div>
+</footer>
 
 </html>
