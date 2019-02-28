@@ -2,29 +2,27 @@
     color: grey
 }
 
+.link-black{
+    color: black
+}
+
 .fa-circle{
     color: rgb(173, 149, 211);
  }
 
 .blue {
     padding-top: 150px;
-    padding-right: 30px;
     padding-bottom: 150px;
-    padding-left: 80px;
     background-color: lightblue;
 }
 
 .grey {
     padding-top: 150px;
-    padding-right: 30px;
     padding-bottom: 150px;
-    padding-left: 80px;
     background-color: lightgrey;
 }
 
 .white {
     padding-top: 150px;
-    padding-right: 30px;
     padding-bottom: 150px;
-    padding-left: 80px;
 }
