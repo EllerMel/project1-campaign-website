@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +11,47 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
     <title>Buffy Summers</title>
 </head>
+
 <body>
+    <section id="top">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Navbar text-->
+            <span class="navbar-text">
+                Jump To:
+            </span>
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/#stances">Stances</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#events">Events</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="alert alert-info alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Please Note:</strong> Election day is Novemeber 5th!
+    </div>
+
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Buffy Summers For Constable of Fayette County</h1>
-          <p class="lead">She will save the world. A lot.</p>
+            <h1 class="display-4">Buffy Summers for Constable of Fayette County</h1>
+            <p class="lead">She will save the world. A lot.</p>
         </div>
-      </div>
+    </div>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6">
+            <div class="col-4">
                 <div class="container">
                     <div class="card" style="width:400px">
-                        <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="/img/BuffyMain.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Buffy Summers</h4>
                             <p class="card-text">For Constable of Fayette County</p>
@@ -34,20 +59,125 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                    <h4>About</h4>
+            <div class="col-8">
+                <h2>About</h2>
+                <p>
+                    Buffy Anne Summers was a Slayer that was activated in the late 20th century. Born on January 19
+                    1981, she was called to be the Slayer in 1996 at the age of fifteen. Buffy was originally living in
+                    Los Angeles; but, due to an incident involving a gang of vampires at Hemery High School, she moved
+                    to Sunnydale with her mother. There, she acted as guardian of the Hellmouth for seven years before
+                    the town’s destruction in mid-2003. Initially a reluctant hero who constantly wished for nothing
+                    more than a normal life, Buffy eventually grew to embrace her destiny.
+                </p>
+                <p>
+                    <button type="button" class="btn btn-info">
+                        <a href="https://buffy.fandom.com/wiki/Buffy_Summers"> Learn More Here</a>
+                    </button>
+                </p>
             </div>
         </div>
     </div>
-
-    <div class="carousel-item">
-        <img src="..." alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>...</h5>
-          <p>...</p>
+    <br>
+    <section class="section-container section--padding section--text" id="stances">
+        <div class="container">
+            <h2>Stances</h2>
+            <a href="/#top" class="link">Back to Top</a>
+            <ul class="list-group">
+                <li>
+                    <strong>Family Orientated:</strong> Raised by a single mother along with her younger sister. Often
+                    operates as part of a team
+                    with her friends, the Scooby Gang.
+                </li>
+                <li>
+                    <strong>Tough on Crime:</strong> Buffy is one of the longest-lived Slayers, and has returned from
+                    death not once, but twice.
+                </li>
+                <li>
+                    <strong>Future Focused:</strong> Successfully enacted a plan to activate every Potential Slayer in
+                    the world, abolishing thetraditional line of Chosen Ones, before dedicating herself to gathering and
+                    training the Slayers she was responsible for creating.
+                </li>
+            </ul>
         </div>
-      </div>
+    </section>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Buffy.jpg" alt="Buffy" width="750" height="450">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/BuffyGroup.jpg" alt="Scoby Gang" width="750" height="450">
+                            <div class="carousel-caption">
+                                <p>Buffy and the Scoobies</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/BuffyGiles.jpg" alt="Buffy Giiles" width="750" height="450">
+                            <div class="carousel-caption">
+                                <p>Buffy and long time mentor Giles</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+    <br>
+    <section id="events">
+        <div class="container">
+            <h2>Events</h2>
+            <a href="/#top" class="link">Back to Top</a>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Location</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Meet & Greet</td>
+                        <td>T.B.D.</td>
+                        <td>April 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Q & A</td>
+                        <td>T.B.D.</td>
+                        <td>July 2019</td>
+                    </tr>
+                    <tr>
+                        <td><span class="badge badge-primary">Don't Forget!</span> Vote</td>
+                        <td></td>
+                        <td>November 5th, 2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
 
 </body>
+
 </html>
