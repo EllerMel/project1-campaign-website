@@ -11,18 +11,20 @@
  }
 
 .blue {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 20px;
+    margin-top: 20px;
     background-color: lightblue;
 }
 
 .grey {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 20px;
+    margin-top: 20px;
     background-color: lightgrey;
 }
 
 .white {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+
 }
